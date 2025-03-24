@@ -14,3 +14,7 @@ let someones_constant1= 6.22e14;
 let someones_constant2= 45e-10;
 console.log(someones_constant1);
 console.log(someones_constant2);
+
+console.log(typeof outdoor_sensor);
+console.log(typeof output_voltage);
+console.log(typeof cname);

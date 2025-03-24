@@ -18,3 +18,7 @@ console.log(someones_constant2);
 console.log(typeof outdoor_sensor);
 console.log(typeof output_voltage);
 console.log(typeof cname);
+
+let unknown= undefined;
+console.log(unknown);
+console.log(typeof unknown);

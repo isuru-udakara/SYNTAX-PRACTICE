@@ -18,3 +18,7 @@ const msgs= {
         return "You have to stop this.";
     }
 }
+
+for(key in msgs){
+    console.log(msgs[key]());
+}

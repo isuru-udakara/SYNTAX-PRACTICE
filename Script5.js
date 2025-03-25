@@ -31,3 +31,7 @@ const MenuBar= {
         item3: "Grid"
     }
 };
+
+// access MenuBar items 
+console.log(MenuBar.File.item2.item2_1);
+console.log(MenuBar["File"]["item1"]["item1_1"]);

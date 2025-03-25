@@ -22,6 +22,13 @@ Human.skin_tone= "brown";
 Human.height= 6.5;
 Human.weight= 69;
 
+// accessing Computer object 
+console.log("RAM: "+ Computer.RAM);
+console.log("SSD: "+ Computer.SSD);
+console.log("Brand: "+ Computer.Brand);
+console.log("Operating System: "+ Computer.OS);
+console.log("CPU: "+ Computer.CPU);
+
 // accessing object properties 
 console.log("Gender"+ Human.gender);
 console.log("Age: "+ Human.age);

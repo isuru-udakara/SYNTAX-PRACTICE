@@ -6,3 +6,6 @@ const Person= {
         return this.fname + this.lname;
     }
 };
+
+// accessing method in object 
+console.log(Person.fullName());

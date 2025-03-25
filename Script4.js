@@ -17,3 +17,13 @@ const Calculator= {
         }
     }
 }
+
+// calling methods 
+let add= Calculator.add(34, 89);
+let sub= Calculator.sub(34, 12);
+let mul= Calculator.mul(34, 89);
+let div= Calculator.div(25, 5);
+console.log("Addition: "+ add);
+console.log("Subtraction: "+ sub);
+console.log("Multiplication: "+ mul);
+console.log("Division: "+ div);

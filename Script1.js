@@ -28,3 +28,6 @@ console.log(values);
 values.push(45);
 values.push(25);
 console.log(values);
+
+console.log("Length of values: "+ values.length);
+console.log("Length of numbers: "+ numbers.length);

@@ -21,3 +21,13 @@ console.log("Ans: ", equation(() => {
 }, () => {
     return 7890;
 }));
+
+function Greet(name, Msg){
+    console.log(Msg(name));
+}
+
+function Msg(name){
+    return "It's not the way this all ends, "+ name;
+}
+
+Greet("Isuru", Msg);

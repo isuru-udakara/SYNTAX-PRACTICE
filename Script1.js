@@ -5,3 +5,5 @@ console.log(numbers);
 for(let x in numbers){
     console.log(x);
 }
+
+console.log("\n");

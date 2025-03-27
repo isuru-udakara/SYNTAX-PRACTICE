@@ -1,6 +1,6 @@
 const greet = (name, msg) => {
     console.log("Hello ! "+ name);
-    msg();
+    msg(); // callback function call
 }
 
 // callback function 

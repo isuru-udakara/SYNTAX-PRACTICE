@@ -7,3 +7,7 @@ for(let x in numbers){
 }
 
 console.log("\n");
+
+console.log("First Item: "+ numbers[0]);
+console.log("Second Item: "+ numbers[1]);
+console.log("Third Item: "+ numbers[3]);

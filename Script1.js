@@ -12,3 +12,11 @@ console.log("First Item: "+ numbers[0]);
 console.log("Second Item: "+ numbers[1]);
 console.log("Third Item: "+ numbers[3]);
 
+const Summation= (array) => {
+    let sum= 0;
+    for(let i in array){
+        sum += array[i];
+    }
+    console.log("Sum: "+ sum);
+}
+Summation([23, 89, 90, 34, 78, 45]);

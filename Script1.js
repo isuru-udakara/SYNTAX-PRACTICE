@@ -24,3 +24,7 @@ Summation([23, 89, 90, 34, 78, 45]);
 const values= [34, 45, 56, 67, 89, 90, 21];
 console.log(values.pop());
 console.log(values);
+
+values.push(45);
+values.push(25);
+console.log(values);

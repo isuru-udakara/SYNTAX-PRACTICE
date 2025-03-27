@@ -31,3 +31,6 @@ console.log(values);
 
 console.log("Length of values: "+ values.length);
 console.log("Length of numbers: "+ numbers.length);
+values.reverse();
+console.log(values);
+console.log(numbers.reverse());

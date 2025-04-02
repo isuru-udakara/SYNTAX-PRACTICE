@@ -2,7 +2,7 @@
 
 const force= (mass, acceleration) => {
     try{
-        return mass * acceleration;
+        return (mass * acceleration).toFixed(2);
     } catch(err){
         return err;
     }};
